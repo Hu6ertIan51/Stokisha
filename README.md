@@ -21,5 +21,5 @@ Completed – Ready for demo, deployment, or further enhancement.
 - **Database**: MySQL  
 - **API**: RESTful JSON APIs over HTTPS
 
-## Project Structure
+
 
