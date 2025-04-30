@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B49A990F2D8C9E9600E3B5CA /* Roboto-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B49A990E2D8C9E9600E3B5CA /* Roboto-ExtraBold.ttf */; };
+		B49A99112D8C9EB200E3B5CA /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B49A99102D8C9EB200E3B5CA /* Roboto-Regular.ttf */; };
+		B49A99132D8C9EDF00E3B5CA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B49A99122D8C9EDF00E3B5CA /* Roboto-Bold.ttf */; };
+		B49A99152D8C9EF400E3B5CA /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B49A99142D8C9EF400E3B5CA /* Roboto-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4E6DA562D77A621003F324B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E6DA342D77A61F003F324B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E6DA3B2D77A61F003F324B;
+			remoteInfo = Stokisha;
+		};
+		B4E6DA602D77A621003F324B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E6DA342D77A61F003F324B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E6DA3B2D77A61F003F324B;
+			remoteInfo = Stokisha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B49A990E2D8C9E9600E3B5CA /* Roboto-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B49A99102D8C9EB200E3B5CA /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B49A99122D8C9EDF00E3B5CA /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		B49A99142D8C9EF400E3B5CA /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		B4E6DA3C2D77A61F003F324B /* Stokisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stokisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E6DA552D77A621003F324B /* StokishaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StokishaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E6DA5F2D77A621003F324B /* StokishaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StokishaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B4E6DA672D77A621003F324B /* Exceptions for "Stokisha" folder in "Stokisha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B4E6DA3B2D77A61F003F324B /* Stokisha */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B4E6DA3E2D77A61F003F324B /* Stokisha */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B4E6DA672D77A621003F324B /* Exceptions for "Stokisha" folder in "Stokisha" target */,
+			);
+			path = Stokisha;
+			sourceTree = "<group>";
+		};
+		B4E6DA582D77A621003F324B /* StokishaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StokishaTests;
+			sourceTree = "<group>";
+		};
+		B4E6DA622D77A621003F324B /* StokishaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StokishaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4E6DA392D77A61F003F324B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E6DA522D77A621003F324B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E6DA5C2D77A621003F324B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4E6DA332D77A61F003F324B = {
+			isa = PBXGroup;
+			children = (
+				B49A99102D8C9EB200E3B5CA /* Roboto-Regular.ttf */,
+				B49A99122D8C9EDF00E3B5CA /* Roboto-Bold.ttf */,
+				B49A99142D8C9EF400E3B5CA /* Roboto-Light.ttf */,
+				B49A990E2D8C9E9600E3B5CA /* Roboto-ExtraBold.ttf */,
+				B4E6DA3E2D77A61F003F324B /* Stokisha */,
+				B4E6DA582D77A621003F324B /* StokishaTests */,
+				B4E6DA622D77A621003F324B /* StokishaUITests */,
+				B4E6DA3D2D77A61F003F324B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4E6DA3D2D77A61F003F324B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4E6DA3C2D77A61F003F324B /* Stokisha.app */,
+				B4E6DA552D77A621003F324B /* StokishaTests.xctest */,
+				B4E6DA5F2D77A621003F324B /* StokishaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4E6DA3B2D77A61F003F324B /* Stokisha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E6DA682D77A621003F324B /* Build configuration list for PBXNativeTarget "Stokisha" */;
+			buildPhases = (
+				B4E6DA382D77A61F003F324B /* Sources */,
+				B4E6DA392D77A61F003F324B /* Frameworks */,
+				B4E6DA3A2D77A61F003F324B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B4E6DA3E2D77A61F003F324B /* Stokisha */,
+			);
+			name = Stokisha;
+			packageProductDependencies = (
+			);
+			productName = Stokisha;
+			productReference = B4E6DA3C2D77A61F003F324B /* Stokisha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4E6DA542D77A621003F324B /* StokishaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E6DA6D2D77A621003F324B /* Build configuration list for PBXNativeTarget "StokishaTests" */;
+			buildPhases = (
+				B4E6DA512D77A621003F324B /* Sources */,
+				B4E6DA522D77A621003F324B /* Frameworks */,
+				B4E6DA532D77A621003F324B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E6DA572D77A621003F324B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B4E6DA582D77A621003F324B /* StokishaTests */,
+			);
+			name = StokishaTests;
+			packageProductDependencies = (
+			);
+			productName = StokishaTests;
+			productReference = B4E6DA552D77A621003F324B /* StokishaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4E6DA5E2D77A621003F324B /* StokishaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E6DA702D77A621003F324B /* Build configuration list for PBXNativeTarget "StokishaUITests" */;
+			buildPhases = (
+				B4E6DA5B2D77A621003F324B /* Sources */,
+				B4E6DA5C2D77A621003F324B /* Frameworks */,
+				B4E6DA5D2D77A621003F324B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E6DA612D77A621003F324B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B4E6DA622D77A621003F324B /* StokishaUITests */,
+			);
+			name = StokishaUITests;
+			packageProductDependencies = (
+			);
+			productName = StokishaUITests;
+			productReference = B4E6DA5F2D77A621003F324B /* StokishaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4E6DA342D77A61F003F324B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B4E6DA3B2D77A61F003F324B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B4E6DA542D77A621003F324B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B4E6DA3B2D77A61F003F324B;
+					};
+					B4E6DA5E2D77A621003F324B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B4E6DA3B2D77A61F003F324B;
+					};
+				};
+			};
+			buildConfigurationList = B4E6DA372D77A61F003F324B /* Build configuration list for PBXProject "Stokisha" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4E6DA332D77A61F003F324B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B4E6DA3D2D77A61F003F324B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4E6DA3B2D77A61F003F324B /* Stokisha */,
+				B4E6DA542D77A621003F324B /* StokishaTests */,
+				B4E6DA5E2D77A621003F324B /* StokishaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4E6DA3A2D77A61F003F324B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49A99152D8C9EF400E3B5CA /* Roboto-Light.ttf in Resources */,
+				B49A99112D8C9EB200E3B5CA /* Roboto-Regular.ttf in Resources */,
+				B49A99132D8C9EDF00E3B5CA /* Roboto-Bold.ttf in Resources */,
+				B49A990F2D8C9E9600E3B5CA /* Roboto-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E6DA532D77A621003F324B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E6DA5D2D77A621003F324B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4E6DA382D77A61F003F324B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E6DA512D77A621003F324B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E6DA5B2D77A621003F324B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4E6DA572D77A621003F324B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E6DA3B2D77A61F003F324B /* Stokisha */;
+			targetProxy = B4E6DA562D77A621003F324B /* PBXContainerItemProxy */;
+		};
+		B4E6DA612D77A621003F324B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E6DA3B2D77A61F003F324B /* Stokisha */;
+			targetProxy = B4E6DA602D77A621003F324B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4E6DA692D77A621003F324B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9C5N4UV4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stokisha/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmoreiOS.Stokisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4E6DA6A2D77A621003F324B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9C5N4UV4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stokisha/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmoreiOS.Stokisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4E6DA6B2D77A621003F324B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4E6DA6C2D77A621003F324B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4E6DA6E2D77A621003F324B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmoreiOS.StokishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stokisha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stokisha";
+			};
+			name = Debug;
+		};
+		B4E6DA6F2D77A621003F324B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmoreiOS.StokishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stokisha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stokisha";
+			};
+			name = Release;
+		};
+		B4E6DA712D77A621003F324B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmoreiOS.StokishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stokisha;
+			};
+			name = Debug;
+		};
+		B4E6DA722D77A621003F324B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmoreiOS.StokishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stokisha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4E6DA372D77A61F003F324B /* Build configuration list for PBXProject "Stokisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E6DA6B2D77A621003F324B /* Debug */,
+				B4E6DA6C2D77A621003F324B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E6DA682D77A621003F324B /* Build configuration list for PBXNativeTarget "Stokisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E6DA692D77A621003F324B /* Debug */,
+				B4E6DA6A2D77A621003F324B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E6DA6D2D77A621003F324B /* Build configuration list for PBXNativeTarget "StokishaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E6DA6E2D77A621003F324B /* Debug */,
+				B4E6DA6F2D77A621003F324B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E6DA702D77A621003F324B /* Build configuration list for PBXNativeTarget "StokishaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E6DA712D77A621003F324B /* Debug */,
+				B4E6DA722D77A621003F324B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4E6DA342D77A61F003F324B /* Project object */;
+}

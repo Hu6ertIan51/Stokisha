@@ -1,0 +1,46 @@
+CREATE TABLE IF NOT EXISTS products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(100) NOT NULL,
+    product_category VARCHAR(100) NOT NULL,
+    descriptions VARCHAR(100) NOT NULL,
+    cost_price DECIMAL(10, 2) NOT NULL,
+    selling_price DECIMAL(10, 2) NOT NULL,
+    supplier_name VARCHAR(100) NOT NULL,
+    phone_number VARCHAR(20) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+ 
+
+CREATE TABLE IF NOT EXISTS current_inbounds (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100) NOT NULL,
+    total_quantity INT NOT NULL DEFAULT 0,
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+);
+
+
+CREATE TABLE IF NOT EXISTS sales (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT NOT NULL,
+    quantity_sold DECIMAL(10, 2) NOT NULL,
+    metric VARCHAR(50) NOT NULL,
+    sale_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS product_sales_summary (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100) NOT NULL,
+    total_quantity_sold DECIMAL(10, 2) NOT NULL DEFAULT 0,
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+);
+ 
+CREATE TABLE IF NOT EXISTS goal (
+    goal_id INT AUTO_INCREMENT PRIMARY KEY,
+    goal_quantity INT NOT NULL,
+    current_sales INT NOT NULL,
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
